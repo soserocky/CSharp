@@ -1,0 +1,32 @@
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.exe
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.deps.json
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.runtimeconfig.json
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.runtimeconfig.dev.json
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.dll
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\ref\Delegates_Events.dll
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.pdb
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.csproj.AssemblyReference.cache
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.AssemblyInfoInputs.cache
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.AssemblyInfo.cs
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.csproj.CoreCompileInputs.cache
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.dll
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\ref\Delegates_Events.dll
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.pdb
+C:\Coding Self Practice\C#\New folder\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.genruntimeconfig.cache
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.exe
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.deps.json
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.runtimeconfig.json
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.runtimeconfig.dev.json
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.dll
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\ref\Delegates_Events.dll
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\bin\Debug\net5.0\Delegates_Events.pdb
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.csproj.AssemblyReference.cache
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.AssemblyInfoInputs.cache
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.AssemblyInfo.cs
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.csproj.CoreCompileInputs.cache
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.dll
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\ref\Delegates_Events.dll
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.pdb
+C:\Coding Self Practice\C#\Delegates_Events\Delegates_Events_Sln\Delegates_Events\obj\Debug\net5.0\Delegates_Events.genruntimeconfig.cache

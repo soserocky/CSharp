@@ -1,0 +1,31 @@
+*Delegates and Events
+*Threading and Asynchronous
+*Linq
+*Collections
+*Exceptions
+*Reflection
+*Garbage collection
+*Strongly Typed Assemblies
+*OOP 
+   - Properties (Automatic, Readonly, Init)
+   - Upcasting
+   - Downcasting
+   - Inheritance 
+   - Polymorphism
+   - Method hiding
+   - Method override
+   - Method overload
+   - Constructor chaining
+   - Static vs Instance constructor
+   - Abstract class
+   - Sealed class
+   - Interface
+   - Access modifiers (public, private, internal, static)
+   - 'is' vs 'as'
+   
+*General
+   - Null coalescing operators
+   - Indexers
+   - Operator overloading
+
+
