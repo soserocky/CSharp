@@ -8,8 +8,7 @@ namespace Delegates_Events
         {
             //DelegatesDemo.DemoDelegates();
             //EventsDemo.DemoEvents();
-            AnonymousObjects.Demo();
-
+            //AnonymousObjects.Demo();
 
             Console.ReadLine();
         }
