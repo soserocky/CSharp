@@ -122,7 +122,6 @@ namespace Delegates_Events
             {
 
             }
-            
         }
 
 

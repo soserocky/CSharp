@@ -6,8 +6,8 @@ namespace Delegates_Events
     {
         static void Main(string[] args)
         {
-            //DelegatesDemo.DemoDelegates();
-            //EventsDemo.DemoEvents();
+            DelegatesDemo.DemoDelegates();
+            EventsDemo.DemoEvents();
             //AnonymousObjects.Demo();
 
             Console.ReadLine();

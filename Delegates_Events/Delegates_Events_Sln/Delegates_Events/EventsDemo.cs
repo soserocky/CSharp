@@ -9,7 +9,7 @@ namespace Delegates_Events
         //Events must be defined in conjunction with the associated event handler(DELEGATE)
         public static event WorkPerformedHandler WorkPerformed;
 
-        //Basically EventHandler is syntactic sugar for a delegate 
+        //Basically, EventHandler is syntactic sugar for a delegate 
         //The below code is another way of defining an event.
         //Essentially, behind the scenes, a delegate is spun up as below
         //public delegate void Delegate$(object sender, CustomEventArgs e);
@@ -25,9 +25,7 @@ namespace Delegates_Events
             //Here, DelegatesDemo.WorkPerformed1 and DelegatesDemo.WorkPerformed2 are the "listeners"
             WorkPerformed = new WorkPerformedHandler(DelegatesDemo.WorkPerformed1);
             WorkPerformed = new WorkPerformedHandler(DelegatesDemo.WorkPerformed2);
-
             WorkCompleted += new EventHandler(DelegatesDemo.WorkCompleted);
-
             WorkPerformed2 = new EventHandler<CustomEventArgs>((o, e) => { });
 
             //Note 1: Important
@@ -40,9 +38,9 @@ namespace Delegates_Events
 
 
             //Note 2:
-            //Consider the above line of code rewritten below:
+            //Consider the below line of code rewritten below:
             //WorkPerformed += new WorkPerformedHandler(DelegatesDemo.WorkPerformed1);
-            //While attaching listeners it seems like an overkill to specify the delegate.
+            //While attaching listeners it seems like an overkill to specify the delegate
             //Hence, .NET provides an easier way to attach a listener by dropping the delegate
             //while attaching the listener. The .NET will automatically infer the associated delegate
             //and the delegate gets invoked behind the scenes.
