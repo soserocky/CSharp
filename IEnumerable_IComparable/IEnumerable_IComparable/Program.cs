@@ -6,6 +6,8 @@ namespace IEnumerable_IComparable
     {
         static void Main(string[] args)
         {
+            My_IEnumberable<int>.Demo();
+
             Console.Read();
         }
     }
