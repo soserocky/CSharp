@@ -8,7 +8,10 @@ namespace Threading
         {
             //ForegroundVsBackground_Threads.Start();
             //ThreadSafety_Lock_Monitor.Start();
-            ManualVsAuto_ResetEvents.Start();
+            //ManualVsAuto_ResetEvents.Start();
+            //MutexDemo.Start();
+            //MutexDemo.Start();
+            SemaphoreDemo.Start();
         }
     }
 }

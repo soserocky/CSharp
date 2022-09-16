@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Threading
 {
-    //Popular implementation when you have multiple funcitons and want other functions to NOT execute
+    //Popular implementation when you have multiple functions and want other functions to NOT execute
     //until one function finishes.
     //Example - File read and write. One thread writes to the file and other threads read from it.
     internal class ManualVsAuto_ResetEvents
@@ -40,6 +40,13 @@ namespace Threading
             {
                 new Thread(ReadFile).Start();
             }
+            Thread.Sleep(2000);
+            _areObj.Set();
+            //This is an issue in AutomaticResetEvents.
+            //"AutoResetEvent" could be "set" from a thread different than the one on which code is being executed
+            //or to simply put - "AutoResetEvent" could be "set" from a thread different than the one which currently
+            //has the "lock" over it - This could lead to erroneous results.
+            //This issue is fixed in "Mutex"
         }
 
         private static void ReadFile()
