@@ -16,9 +16,10 @@ namespace Threading
 
         //When threads encounter the WaitOne() function, they check the state
         //If state is false, then they wait until the state is "true" again
-        //Once the state becomes "true" again, only one thread gets access
+        //Once the state becomes "true" again - ("set" function has to be called for that), only one thread gets access
         //and the state is set to "false" again and the other threads wait
         //for the state to become "true" again and so on...
+        //"reset" function resets the state to its initial value, "set" function makes it "true" always
         internal static void Start()
         {
             //MyManualResetEventFunction();
@@ -27,21 +28,21 @@ namespace Threading
 
         private static void MyManualResetEventFunction()
         {
-            new Thread(Write).Start();
+            new Thread(WriteFile).Start();
             for (int i = 0; i < 5; i++)
             {
-                new Thread(Read).Start();
+                new Thread(ReadFile).Start();
             }
         }
         private static void MyAutoResetEventFunction()
         {
             for (int i = 0; i < 5; i++)
             {
-                new Thread(Read).Start();
+                new Thread(ReadFile).Start();
             }
         }
 
-        private static void Read()
+        private static void ReadFile()
         {
             //_mreObj.WaitOne();
             _areObj.WaitOne();
@@ -51,7 +52,7 @@ namespace Threading
             _areObj.Set();
         }
         
-        private static void Write()
+        private static void WriteFile()
         {
             _mreObj.Reset();
             Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} started writing");

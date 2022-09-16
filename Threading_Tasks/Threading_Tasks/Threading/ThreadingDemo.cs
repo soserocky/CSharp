@@ -10,7 +10,5 @@ namespace Threading
             //ThreadSafety_Lock_Monitor.Start();
             ManualVsAuto_ResetEvents.Start();
         }
-
-        
     }
 }
