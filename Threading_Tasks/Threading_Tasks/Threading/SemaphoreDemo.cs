@@ -2,25 +2,28 @@
 {
     internal class SemaphoreDemo
     {
-        private static Semaphore _semaphore = new Semaphore(1, 2);
+        //The count on a semaphore is decremented each time a thread enters the semaphore,
+        //and incremented when a thread releases the semaphore. When the count is zero,
+        //subsequent requests block until other threads release the semaphore.
+        //When all threads have released the semaphore, the count is at the maximum value specified
+        //when the semaphore was created.
+        private static Semaphore _semaphore = new Semaphore(1, 1);
         internal static void Start()
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 1; i++)
             {
                 new Thread(ReadFile).Start();
             }
-
-            Thread.Sleep(3000);
-            _semaphore.Release();
         }
 
         private static void ReadFile()
         {
-            _semaphore.WaitOne();
+            _semaphore.WaitOne(); //The semaphore count is decremented here 
             Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} started reading");
-            Thread.Sleep(3000);
+            Thread.Sleep(1000);
             Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} finished reading");
-            _semaphore.Release();
+            Console.WriteLine($"Semaphore release count: {_semaphore.Release()} in ReadFile function");
+            //_semaphore.Release() increments the semaphore count
         }
     }
 }
