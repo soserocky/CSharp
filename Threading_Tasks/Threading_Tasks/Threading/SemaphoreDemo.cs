@@ -7,6 +7,7 @@
         //subsequent requests block until other threads release the semaphore.
         //When all threads have released the semaphore, the count is at the maximum value specified
         //when the semaphore was created.
+        //NOTE: The semaphore count should never exceed the maximum count specified at the time of semaphore creation
         private static Semaphore _semaphore = new Semaphore(1, 1);
         internal static void Start()
         {
