@@ -1,4 +1,5 @@
 ﻿using System;
+using Tasks;
 using Threading;
 
 namespace Threading_Tasks 
@@ -7,7 +8,9 @@ namespace Threading_Tasks
     {
         static void Main(string[] args)
         {
-            ThreadingDemo.Start();
+            //ThreadingDemo.Start();
+            TasksDemo.Start();
+            Console.Read();
         }
     }
 }
