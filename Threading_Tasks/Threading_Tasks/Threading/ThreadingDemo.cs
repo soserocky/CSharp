@@ -11,7 +11,8 @@ namespace Threading
             //ManualVsAuto_ResetEvents.Start();
             //MutexDemo.Start();
             //MutexDemo.Start();
-            SemaphoreDemo.Start();
+            //SemaphoreDemo.Start();
+
         }
     }
 }
