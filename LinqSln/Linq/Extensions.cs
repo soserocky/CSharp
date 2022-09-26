@@ -14,5 +14,15 @@ namespace MyLinq
             
             return input[0].ToString().ToUpper() + input.Substring(1);
         }
+        internal static IEnumerable<T> MyFilter<T>(this IEnumerable<T> input, Func<T,bool> predicate)
+        {
+            foreach (var item in input)
+            {
+                if (predicate(item))
+                {
+                    yield return item;
+                }
+            }
+        }
     }
 }
