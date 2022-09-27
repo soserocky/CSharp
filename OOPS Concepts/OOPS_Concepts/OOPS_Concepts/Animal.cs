@@ -10,7 +10,7 @@ namespace OOPS_Concepts
     {
         public virtual string Name { get; set; } = "Animal";
 
-        public int Weight = 400;
+        public virtual int Weight { get; set; } = 400;
         public virtual void Eat()
         {
             Console.WriteLine("Animal eats");

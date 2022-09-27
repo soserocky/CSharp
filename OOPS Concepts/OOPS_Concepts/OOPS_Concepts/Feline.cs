@@ -9,11 +9,11 @@ namespace OOPS_Concepts
     public class Feline : Animal
     {
         public override string Name { get; set; } = "Feline";
-        public int Weight = 200;
-        //public virtual void Eat()
-        //{
-        //    Console.WriteLine("Feline eats");
-        //}
+        public override int Weight { get; set; } = 200;
+        public override void Eat()
+        {
+            Console.WriteLine("Feline eats");
+        }
 
     }
 }

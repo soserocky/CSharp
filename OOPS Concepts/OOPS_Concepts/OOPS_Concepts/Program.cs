@@ -52,7 +52,8 @@ namespace OOPS_Concepts
             Animal c = new Tiger();
             Console.WriteLine((c as Tiger).Name); 
             (c as Tiger).Eat(); 
-            Console.WriteLine((c as Tiger).Weight); 
+            Console.WriteLine((c as Tiger).Weight);
+            //(c as Tiger), in this context, is identical to Tiger c = new Tiger(); situation
             Console.WriteLine("-------------------------");
 
             //SCENARIO 4:
@@ -60,7 +61,8 @@ namespace OOPS_Concepts
             Tiger d = new Tiger();
             Console.WriteLine((d as Animal).Name); 
             (d as Animal).Eat(); 
-            Console.WriteLine((d as Animal).Weight); 
+            Console.WriteLine((d as Animal).Weight);
+            //(d as Animal), in this context, is identical to Animal d = new Tiger(); situation
             Console.WriteLine("-------------------------");
 
         }
