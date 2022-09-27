@@ -8,7 +8,8 @@ namespace OOPS_Concepts
 {
     public class Tiger : Feline
     {
-        public string Name { get; set; } = "Tiger";
+        public override string Name { get; set; } = "Tiger";
+        public int Weight { get; set; } = 100;
         public override void Eat()
         {
             Console.WriteLine("Tiger eats");
